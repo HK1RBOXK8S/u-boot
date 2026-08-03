@@ -1,0 +1,7 @@
+HK1RBOXK8S-RK3528
+M:	Jonas Karlman <jonas@kwiboo.se>
+S:	Maintained
+F:	board/rockchip/hk1rboxk8s-rk3528
+F:	include/configs/hk1rboxk8s-rk3528.h
+F:	configs/hk1rboxk8s-rk3528_defconfig
+F:	arch/arm/dts/rk3528-hk1rboxk8s*

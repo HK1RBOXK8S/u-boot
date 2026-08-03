@@ -5,6 +5,11 @@ config TARGET_RADXA_ROCK_2_RK3528
 	help
 	  Radxa ROCK 2A/2F single board computers with a RK3528A SoC.
 
+config TARGET_HK1RBOXK8S_RK3528
+	bool "HK1RBOXK8S"
+	help
+	  HK1RBOXK8S board with a RK3528 SoC.
+
 config ROCKCHIP_BOOT_MODE_REG
 	default 0xff370200
 
@@ -15,6 +20,8 @@ config SYS_SOC
 	default "rk3528"
 
 source "board/radxa/rock-2-rk3528/Kconfig"
+
+source "board/rockchip/hk1rboxk8s-rk3528/Kconfig"
 
 config SYS_CONFIG_NAME
 	default "rk3528_common"

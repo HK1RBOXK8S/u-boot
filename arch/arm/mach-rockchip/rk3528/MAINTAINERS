@@ -21,3 +21,9 @@ M:	Jonas Karlman <jonas@kwiboo.se>
 S:	Maintained
 F:	arch/arm/dts/rk3528-armsom-sige1*
 F:	configs/sige1-rk3528_defconfig
+
+HK1RBOXK8S-RK3528
+M:	Jonas Karlman <jonas@kwiboo.se>
+S:	Maintained
+F:	arch/arm/dts/rk3528-hk1rboxk8s*
+F:	configs/hk1rboxk8s-rk3528_defconfig

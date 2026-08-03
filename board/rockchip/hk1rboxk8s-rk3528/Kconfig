@@ -1,0 +1,9 @@
+if TARGET_HK1RBOXK8S_RK3528
+
+config SYS_BOARD
+	default "hk1rboxk8s_rk3528"
+
+config SYS_VENDOR
+	default "rockchip"
+
+endif
