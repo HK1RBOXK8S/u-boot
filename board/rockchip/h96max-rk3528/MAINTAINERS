@@ -1,0 +1,7 @@
+H96MAX-RK3528
+M:	Jonas Karlman <jonas@kwiboo.se>
+S:	Maintained
+F:	board/rockchip/h96max-rk3528
+F:	include/configs/h96max-rk3528.h
+F:	configs/h96max-rk3528_defconfig
+F:	arch/arm/dts/rk3528-h96max*

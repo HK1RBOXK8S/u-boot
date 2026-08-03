@@ -1,0 +1,9 @@
+if TARGET_H96MAX_RK3528
+
+config SYS_BOARD
+	default "h96max_rk3528"
+
+config SYS_VENDOR
+	default "rockchip"
+
+endif

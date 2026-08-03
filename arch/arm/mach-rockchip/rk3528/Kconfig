@@ -5,6 +5,11 @@ config TARGET_RADXA_ROCK_2_RK3528
 	help
 	  Radxa ROCK 2A/2F single board computers with a RK3528A SoC.
 
+config TARGET_H96MAX_RK3528
+	bool "H96MAX"
+	help
+	  H96MAX board with a RK3528 SoC.
+
 config ROCKCHIP_BOOT_MODE_REG
 	default 0xff370200
 
@@ -15,6 +20,8 @@ config SYS_SOC
 	default "rk3528"
 
 source "board/radxa/rock-2-rk3528/Kconfig"
+
+source "board/rockchip/h96max-rk3528/Kconfig"
 
 config SYS_CONFIG_NAME
 	default "rk3528_common"

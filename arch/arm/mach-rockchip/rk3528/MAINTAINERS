@@ -15,3 +15,9 @@ M:	Jonas Karlman <jonas@kwiboo.se>
 S:	Maintained
 F:	arch/arm/dts/rk3528-armsom-sige1*
 F:	configs/sige1-rk3528_defconfig
+
+H96MAX-RK3528
+M:	Jonas Karlman <jonas@kwiboo.se>
+S:	Maintained
+F:	arch/arm/dts/rk3528-h96max*
+F:	configs/h96max-rk3528_defconfig
