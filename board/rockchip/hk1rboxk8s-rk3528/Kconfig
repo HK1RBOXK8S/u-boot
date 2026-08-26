@@ -6,4 +6,7 @@ config SYS_BOARD
 config SYS_VENDOR
 	default "rockchip"
 
+config SYS_CONFIG_NAME
+	default "hk1rboxk8s_rk3528"
+
 endif
