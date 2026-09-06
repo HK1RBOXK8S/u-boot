@@ -14,10 +14,11 @@
 #include <configs/rk3528_common.h>
 
 #define HK1RBOXK8S_RK3528_SETTINGS \
-    "extraargs=console=ttyS0,1500000 earlycon=uart8250,mmio32,0xff9f0000 loglevel=7 ignore_loglevel initcall_debug\0" \
+    "extraargs=console=ttyS0,1500000 earlycon=uart8250,mmio32,0xff9f0000 loglevel=7 panic=0 nowatchdog nmi_watchdog=0 softlockup_panic=0\0" \
     "ipaddr=192.168.1.22\0" \
     "netmask=255.255.255.0\0" \
     "gatewayip=192.168.1.1\0" \
     "serverip=192.168.1.1\0"
 
 #endif
+
