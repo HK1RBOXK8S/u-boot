@@ -6,3 +6,11 @@
 	bootph-pre-ram;
 	vdd-microvolts = <1800000>;
 };
+
+&vdd_arm {
+	regulator-init-microvolt = <953000>;
+};
+
+&vdd_logic {
+	regulator-init-microvolt = <900000>;
+};
